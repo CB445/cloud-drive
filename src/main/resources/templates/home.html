@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>CloudDrive</title>
+    <link rel="stylesheet" th:href="@{/css/home.css}">
+</head>
+<body>
+    <div class = "app-layout">
+
+        <aside class="sidebar">
+
+            <div>
+                <span class="logo-icon">☁</span>
+                <span>CloudDrive</span>
+            </div>
+
+            <button class="upload-button" type ="button">
+                + Upload File
+            </button>
+           
+            <nav class="sidebar-nav">
+                <a class="nav-link active" href="/">Dashboard</a>
+                <a class = "nav-link" href="#">My Files</a>
+                <a class = "nav-link" href="#">Shared</a>
+                <a class = "nav-link" href="#">Recent</a>
+                <a class = "nav-link" href="#">Starred</a>
+                <a class = "nav-link" href="#">Trash</a>
+            </nav>
+
+            <div class="sidebar=bottem">
+                <div class = "storage-summary">
+                    <p>Storage</p>
+
+                    <div class=" "storage-bar>
+                        <div class = "storage-used"></div>
+                    </div>
+
+                    <small>7.2 GB of 20 GB used</small>
+                </div>
+                 
+                <a class="nav-link" href="#">Settings</a>
+            </div>
+
+        </aside>
+
+        <main class="main-content">
+            <h1>Welcome to CloudDrive</h1>
+            <p>Your dashboard content will go here.</p>
+        </main>
+
+    </div>
+</body>
+</html>
